@@ -26,7 +26,7 @@ with st.form("registration_form"):
     # create multiple choice question
     education = st.radio("Please indicate whether your are a current EMBA student or alumnus:", ("Current student", "Alumnus"))
     # user needs to indicate with yes or no if they are a student
-    uploaded_file = st.file_uploader("Please upload a PDF of your LinkedIn profile. You can find this PDF by going to your LinkedIn profile page, click on Resources, and click on Save PDF. By uploading the file, you agree that we use and store your LinkedIn profile for the purpose of matchig for the speed networking", type="pdf")
+    uploaded_file = st.file_uploader("Please upload a PDF of your LinkedIn profile. You can find this PDF by going to your LinkedIn profile page, click on Resources, and click on Save PDF. By uploading the file, you agree that we use and store your LinkedIn profile for the purpose of matchig for the generative AI course", type="pdf")
     submit_form = st.form_submit_button("Submit")
 
 # If the form is submitted
